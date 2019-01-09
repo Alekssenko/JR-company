@@ -589,11 +589,12 @@ position: absolute;
     background-color: #fff;
     width: 200px;
   }
-.input{
+.btn.input{
     background-color: white;
 }
-.input:hover{
-    color: #ad7c36;
+.btn.input:hover{
+    color: white;
+    background-color: #ad7c36;
 }
                                   /*FOOTER*/
 .footer{
