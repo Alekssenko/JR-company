@@ -7,10 +7,6 @@ body{
     line-height: 1;
     color: #a59797;
     width:100%;
-    /*overflow-x: hidden;*/
-    /*background: url("images/icons/bg.png") no-repeat;*/
-    /*background-size: cover;*/
-    /*!*background-size:100%;*!*/
     margin:0 auto;
     padding:0 4px;
 }
@@ -18,8 +14,6 @@ body *{
     box-sizing:border-box;
     border: none;
 }
-
-
 img{
     max-width:100%;
 }
@@ -35,7 +29,6 @@ h1, h2 , h3, h4 ,h5 ,h6 ,p{
     padding: 0;
     margin: 0;
 }
-
 /*global*/
 .main-area{
     display: flex;
@@ -60,7 +53,6 @@ h1, h2 , h3, h4 ,h5 ,h6 ,p{
     position: relative;
     display: flex;
     justify-content: space-between;
-    /*flex-wrap: wrap;*/
     max-width: 1800px;
     width: 100%;
     margin: 0 auto;
@@ -102,11 +94,8 @@ h1, h2 , h3, h4 ,h5 ,h6 ,p{
                                      /*MAIN-TEXT*/
 .main-area-text{
     width:70%;
-    /*height: 100px;*/
-   margin-left: 28%;
+    margin-left: 28%;
     z-index: 10;
-    /*position: absolute;*/
-    /*border: 2px solid #fff;*/
 }
 
 h1{
@@ -116,17 +105,13 @@ h1{
     color: rgb(255, 255, 255);
     text-align:left;
     text-wrap: none;
-    /*line-height: 70px;*/
-
 }
 h2{
-    /*display: inline-block;*/
     font-size:28px;
     font-family: 'Raleway';
     font-weight: normal;
     color: rgb(255, 255, 255);
     line-height: 70px;
-    /*vertical-align: top;*/
     text-align: left;
     margin: 0 auto;
     text-wrap: none;
@@ -140,7 +125,6 @@ h3{
     line-height:2;
     text-align:center;
     margin: 20px auto;
-    /*max-width: 450px;*/
 }
 h4{
     margin-bottom: 10px;
@@ -151,7 +135,6 @@ h4{
     color: rgb(182, 134, 66);
     line-height: 1;
     text-align: center;
-
 }
 h3:before{
     content: "";
@@ -223,6 +206,7 @@ h5 {
 .main-area-pager.active{
     background-color: #ad7c36;
 }
+                                 /*vertical lines*/
 .vertical-line{
     width: 1px;
     background-color: #ad7c36;
@@ -295,10 +279,7 @@ h5 {
     align-items: center;
     margin:20px 0;
     width: 330px;
-   /*width: 30%;*/
-
     height: 330px;
-    /*height: 33%;*/
     border: 3px solid #ad7c36;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.39);
     font-size: 20px;
@@ -322,7 +303,7 @@ h5 {
 .service:hover img{
     filter:brightness(99);
 }
-.servis:hover h4{
+.service:hover h4{
     color:white;
 }
 .rectangle{
@@ -357,7 +338,6 @@ position: absolute;
 }
 .about-us-slider{
     max-width: 1170px;
-
 }
 .about-us-slider img{
     width: 66px;
@@ -417,7 +397,6 @@ position: absolute;
     width:66px;
     height: 66px;
 }
-
 .dots{
     width: 170px;
     margin: 0 auto;
@@ -427,7 +406,6 @@ position: absolute;
     justify-content: space-between;
     margin-bottom: 70px;
 }
-
 .dots-link{
     display: block ;
     width: 16px;
@@ -446,13 +424,12 @@ position: absolute;
     justify-content: space-between;
     flex-wrap: nowrap;
 }
-.propertys {
+.properties {
     width: 310px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
     text-align: center;
     font-size: 16px;
     font-family: "lato";
@@ -472,12 +449,12 @@ position: absolute;
 .property-text{
     margin: 25px;
 }
-.propertys .btn{
+.properties .btn{
     margin: auto 0 0 0;
     width: 150px;
     padding: 10px; ;
 }
-.propertys .btn:hover{
+.properties .btn:hover{
     color: white;
     background-color: #ad7c36;
 }
@@ -493,12 +470,11 @@ position: absolute;
     justify-content: space-between;
     padding: 45px;
     font-size: 16px;
-    /*font-family: "Myriad Pro";*/
     color: rgb(205, 205, 205);
     line-height: 1.5;
 
 }
-.team-foto{
+.team-photo{
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
@@ -630,7 +606,6 @@ position: absolute;
 .contact-info span{
     color: #a8762f;
 }
-
 .social{
     display: flex;
     flex-direction: column;
@@ -645,13 +620,9 @@ position: absolute;
     border-radius: 50%;
     margin-right: 10px;
 }
-/*.social-link img{*/
-   /*width: 30px;*/
-/*}*/
 .social-link:hover{
     background-color: #ad7c36;
  }
-
 .social ul{
     /*display: inline;*/
     display: flex;
@@ -695,7 +666,7 @@ position: absolute;
         padding: 10px;
         top: 17px;
     }
-    .propertys {
+    .properties {
         width: 300px;
         padding: 0 5px;
     }
@@ -839,13 +810,13 @@ position: absolute;
         align-items: center;
         /* flex-wrap: nowrap; */
     }
-    .propertys {
+    .properties {
          width: auto;
         margin-top: 50px;
         border-bottom: 1px solid #a8762f;
         padding-bottom: 10px;
     }
-    .propertys .btn {
+    .properties .btn {
 
         width: 100px;
         padding: 5px;
@@ -854,7 +825,7 @@ position: absolute;
     .text {
         font-size: 18px;
     }
-    .team-foto {
+    .team-photo {
         flex-wrap: wrap;
         justify-content: center;
 
